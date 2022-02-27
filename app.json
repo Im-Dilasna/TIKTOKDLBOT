@@ -1,0 +1,37 @@
+{
+    "name": "Tiktok DL Bot",
+    "description": "🔥 Bot Can Download TikTok Video Without Watermark 🔥",
+    "logo": "https://www.freepnglogos.com/uploads/tik-tok-logo-png/tik-tok-how-use-tiktok-create-cool-videos-with-iphone-14.png",
+    "keywords": [
+        "tiktok",
+        "Video Downloader",
+        "Telegram Bot"
+    ],
+    "repository": "https://github.com/SLNinjaTeamBot/TIKTOKDLBOT",
+    "env": {
+        "APP_ID": {
+            "description": "Your APP ID from my.telegram.org",
+            "value": ""
+        },
+        "API_HASH": {
+            "description": "Your API Hash from my.telegram.org",
+            "value": ""
+        },
+        "BOT_TOKEN": {
+            "description": "Your Telegram Bot Token from @BotFather",
+            "value": ""
+        }
+    },
+    "addons": [],
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        }
+    ],
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    }
+}
